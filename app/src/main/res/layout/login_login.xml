@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+ >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/_page_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <FrameLayout
+        android:id="@+id/header_userlogin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headersize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+           android:orientation="vertical"
+            android:id="@+id/tabeviewtesting"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+              >
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/lightblue"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <TextView
+
+                            android:layout_gravity="center"
+                            android:id="@+id/id_title_login"
+                            android:textSize="40dp"
+                            android:text="infoCancer"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+
+
+                            />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/splash_screen"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView2"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/login_id_title"
+                            android:layout_toEndOf="@+id/login_id_title"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="11dp"
+                        android:textColor="@color/white"
+                        android:text="There is no hope unmingled with fear, no fear unmingled with hope."
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/seconfgh"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RelativeLayout
+                    android:background="@color/lightblue"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/save_user1"
+                        android:id="@+id/user_png"
+                        android:layout_marginTop="19dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/doctor_png"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <infocancer.nyesteventure.com.infocancer.ViewpagerLogin.PagerSlidingTabStrip
+            android:id="@+id/_tabs_user"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_gravity="bottom"
+            android:background="@color/lightblue" />
+    </FrameLayout>
+
+
+</RelativeLayout>

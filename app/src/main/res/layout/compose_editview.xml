@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:background="@color/main_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+
+        <EditText
+            android:hint="type here..."
+            android:id="@+id/id_question_comment_edittext"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_weight="1.0"  />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/comment_button_id"
+            android:src="@drawable/ic_send_black_24dp"
+
+            android:onClick="onClick"
+            android:layout_width="50dp" android:layout_height="50dp"
+            app:backgroundTint="@color/blue"
+            app:borderWidth="7.6dp"
+
+            />
+
+
+</LinearLayout>

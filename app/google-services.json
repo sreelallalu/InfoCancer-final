@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "374825197166",
+    "firebase_url": "https://api-project-374825197166.firebaseio.com",
+    "project_id": "api-project-374825197166",
+    "storage_bucket": "api-project-374825197166.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374825197166:android:95a6b010e66ede7f",
+        "android_client_info": {
+          "package_name": "infocancer.nyesteventure.com.infocancer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374825197166-cr8496q8ocfmjggt6q0mj9f9du9qns2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIw05dYAgjWQ4zG-rCcisJ99Ay1HIapjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

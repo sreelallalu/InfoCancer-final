@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_view"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/questionmode_spinner"
+            android:background="@drawable/selector_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </Spinner>
+
+
+        <TextView
+            android:textColor="@color/red"
+            android:id="@+id/infoText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:text="Pull Down to Refresh" />
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_height="match_parent"
+        android:id="@+id/swipelayout"
+        android:layout_width="match_parent">
+       <!-- <ScrollView
+      <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <include layout="@layout/question_listview"></include>
+
+        </ScrollView>
+
+    -->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvListuser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

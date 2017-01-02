@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="textstandard">17dp</dimen>
+    <dimen name="textHead">22dp</dimen>
+    <dimen name="textsubHead">18dp</dimen>
+    <dimen name="headersize">298dp</dimen>
+    <dimen name="header_height">298dp</dimen>
+    <dimen name="min_header_height">258dp</dimen>
+    <dimen name="pad_5dp">5.0dip</dimen>
+    <dimen name="pad_10dp">10.0dip</dimen>
+    <dimen name="pad_15dp">15.0dip</dimen>
+    <dimen name="pad_20dp">20.0dip</dimen>
+    <dimen name="pad_30dp">30.0dip</dimen>
+    <dimen name="pad_chat_item">45.0dip</dimen>
+    <dimen name="pad_chat_item1">10.0dip</dimen>
+    <dimen name="txt_7sp">7.0sp</dimen>
+    <dimen name="txt_12sp">12.0sp</dimen>
+    <dimen name="txt_13sp">13.0sp</dimen>
+    <dimen name="txt_14sp">14.0sp</dimen>
+    <dimen name="txt_15sp">15.0sp</dimen>
+    <dimen name="txt_16sp">16.0sp</dimen>
+    <dimen name="txt_18sp">18.0sp</dimen>
+    <dimen name="txt_20sp">20.0sp</dimen>
+</resources>

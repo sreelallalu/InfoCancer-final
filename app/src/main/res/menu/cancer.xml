@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/cancer1"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Cancer?" />
+
+        <item
+            android:id="@+id/cancer2"
+            android:checked="false"
+            android:icon="@android:drawable/sym_call_missed"
+            android:title="Type of Cancer" />
+
+        <item
+            android:id="@+id/cancer3"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Symtoms" />
+
+        <item
+            android:id="@+id/cancer4"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Diagnosed" />
+
+
+        <item
+            android:id="@+id/cancer5"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Stagging" />
+        <item
+            android:id="@+id/cancer6"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Prevension" />
+
+
+    </group>
+
+</menu>

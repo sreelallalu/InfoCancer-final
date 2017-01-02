@@ -1,0 +1,368 @@
+<resources>
+    <string name="terms1">By creating an account,you are agreeing to our terms and conditions</string>
+    <string name="app_name">infoCancer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="lostpassword">If you lost your password please contact <a href="mailto:support@cleverfinger.com.au?Subject=Lost%20Password" target="_top">support@cleverfinger.com.au</a></string>
+
+    <string name="click"><a href="http://www.google.com">google</a></string>
+    <string name="clicki"><a href="cancer.org">http://www.medicinenet.com/cancer/focus.htm</a></string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="openDrawer">open</string>
+    <string name="closeDrawer">close</string>
+    <string name="smk_0">The twin on the right smoked for 14 years (a half-pack a day); her counterpart on the left is a nonsmoker. One of the characteristic signs is the looseness of the undereye skin, making her appear years older than her twin sister. This is one sign of skin damaged by smoking. The twin on the right further damaged her skin over time by repeated sun exposure.jgvbrfjdfvj
+    afbdafhsduifjdiofj
+    safhauifhujafhasfjiofjsiofjioj</string>
+
+    <string-array name="stringcancer">
+        <item>Cancer?</item>
+        <item>Type of Cancer</item>
+        <item>Symtoms and Signs</item>
+        <item>Diagnosed</item>
+        <item>Staging</item>
+        <item>Prevension</item>
+        <item>References</item>
+    </string-array>
+    <string name="abouts">
+        infoCancer app is a helpful resource for patients.
+        It provides information on type of cancers, provides
+        a place to write questions, comments by doctors,
+        list medications, record symptoms and more....
+
+    </string>
+
+
+    <string-array name="stringimage">
+        <item>Main</item>
+        <item>Breast Cancer</item>
+        <item>Lung Cancer</item>
+        <item>Skin Cancer</item>
+        <item>Bladder Cancer</item>
+        <item>Cervical Cancer</item>
+        <item>Colorectal Cancer</item>
+        <item>Ovarian Cancer</item>
+        <item>Pancreatic Cancer</item>
+        <item>Prostate Cancer</item>
+        <item>Womens Cancer</item>
+        <item>Mens Cancer</item>
+        <item>Smoke Cancer</item>
+
+    </string-array>
+    <array name="imageimage">
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+
+    </array>
+
+    <string-array name="stringquestion">
+        <item>question1</item>
+        <item>question2</item>
+        <item>question3</item>
+        <item>question4</item>
+    </string-array>
+    <array name="imagequestion">
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+        <item>@drawable/rtoip</item>
+    </array>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--info_cancer_home -->
+
+
+            <string name="home_first">
+                Cancers are a large family of diseases that
+                involve abnormal cell growth with the potential
+                 to invade or spread to other parts of the body.They
+                 form a subset of neoplasms.
+                  A neoplasm or tumor is a group of cells that have
+                  undergone
+
+            </string>
+
+            <string name="f_1">* Cell growth and division without the proper signals to do so
+                </string>
+
+            <string name="f_2">* Continuous growth and division even when there are signals
+                 telling them to stop</string>
+
+    <string name="f_3">* Avoidance of programmed cell death</string>
+
+            <string name="f_4">* Limitless number of cell divisions
+            </string>
+
+    <string name="f_5">* Promoting blood vessel construction</string>
+
+    <string name="f_6">* Invasion of tissue and formation of metastases</string>
+
+             <string name="backi">unregulated growth,
+                  and will often form a mass or lump, but may be
+                  distributed diffusely.These are characteristics that
+                   the cancer cells need to produce a malignant tumor.</string>
+             <string name="causes_1">Anything that may cause a
+                    normal body cell to develop abnormally potentially
+                    can cause cancer. Many things can cause cell abnormalities
+                     and have been linked to cancer development. Some cancer causes
+                     remain unknown while other cancers have environmental or lifestyle
+                      triggers or may develop from more than one known cause.
+                     Some may be developmentally influenced by a persons genetic makeup.
+                     Many patients develop cancer due to a combination of these factors. Although it
+                      is often difficult or impossible to determine the initiating event(s) that cause a
+                     cancer to develop in a specific person, research has provided
+                      clinicians with a number of likely causes that alone or in concert with other causes,
+                       are the likely candidates for initiating cancer. The following is a listing of major
+                       causes and is not all-inclusive as
+                      specific causes are routinely added as research advances</string>
+
+                <string name="causes_2">Benzene, asbestos, nickel, cadmium,
+                    vinyl chloride, benzidine, N-nitrosamines, tobacco or
+                    cigarette smoke (contains at least 66
+                    known potential carcinogenic chemicals and toxins),
+                    and aflatoxin</string>
+                <string name="causes_3">Uranium, radon, ultraviolet rays from sunlight,
+                    radiation from alpha, beta, gamma, and X-ray-emitting sources</string>
+
+                <string name="causes_4"> Human papillomavirus (HPV),
+                    EBV or Epstein-Barr virus, hepatitis viruses B and C, Kaposis sarcoma-associated herpes virus (KSHV), Merkel cell polyomavirus,
+                     Schistosoma spp., and Helicobacter pylori
+                     other bacteria are being researched as possible agents.</string>
+                     <string name="causes_5"> A number of specific cancers have been
+                         linked to human genes and are as follows: breast, ovarian,
+                         colorectal, prostate, skin and melanoma; the specific genes and
+                         other details are beyond the scope of this general article so the
+                         reader is referred to the National Cancer
+                         Institute for more details about genetics and cancer.</string>
+
+    <!-- info cancertypes-->
+             <string name="type">There are over 200 types of cancer.
+                              far too numerous to include in this introductory article.
+                               However, the NCI lists several general categories (see list in first section of this article).
+                               This list is expanded below to list more specific types of cancers found in each general category;
+                               it is not all
+                             inclusive and the cancers listed in quotes are the general names of some cancers:</string>
+                             <string name="type_1">Cancer that begins in the skin or in
+                                 tissues that line or cover internal organs -- "skin, lung, colon, pancreatic, ovarian cancers,"
+                                 epithelial, squamous and basal cell carcinomas, melanomas, papillomas,
+                                   and adenomas</string>
+                                   <string name="type_2">Cancer that begins in bone, cartilage, fat, muscle,
+                                       blood vessels, or other connective or supportive tissue -- "bone, soft tissue cancers,"
+                                       osteosarcoma,
+                                       synovial sarcoma, liposarcoma, angiosarcoma, rhabdosarcoma, and fibrosarcoma</string>
+                                       <string name="type_3"> Cancer that starts in blood-forming tissue such as the bone marrow
+                                            and causes large numbers of abnormal blood cells to be produced and enter the blood -- "leukemia,"
+                                             lymphoblastic leukemias (ALL and CLL),
+                                           myelogenous leukemias (AML and CML), T-cell leukemia, and hairy-cell leukemia</string>
+                                           <string name="type_4">Cancers that begin in the cells of the immune system --
+                                                "lymphoma," T-cell lymphomas, B-cell lymphomas,
+                                                Hodgkin lymphomas, non-Hodgkin lymphoma, and lymphoproliferative lymphomas</string>
+                                                <string name="type_5">Cancers that begin in the tissues of the brain and
+                                                    spinal cord -- "brain and spinal cord tumors," gliomas, meningiomas,
+                                                    pituitary adenomas, vestibular schwannomas,
+                                                    primary CNS lymphomas, and primitive neuroectodermal tumors</string>
+                                                    <string name="type_backi">
+                                                        Not included in the above types listed are
+                                                        metastatic cancers; this is because metastatic cancer cells usually arise
+                                                        from a cell type listed above and the major difference from the above types
+                                                        is that these cells are now present in a tissue from which the cancer cells
+                                                        did not originally develop. Consequently, if the terms "metastatic cancer" is
+                                                        used, for accuracy, the tissue from which the cancer cells arose should be included.
+                                                         For example, a patient may say they have or are diagnosed with "metastatic cancer"
+                                                         but the more accurate statement is metastatic breast, lung, colon, or other cancer
+                                                         with spread to the organ in which it has been found.Another example is the
+                                                          following: A doctor describing a man whose prostate cancer has spread to his bones
+                                                           should say the man has metastatic prostate cancer to bone. This is not "bone cancer,"
+                                                           which would be cancer that started in the bone cells.
+                                                         Metastatic prostate cancer to bone is treated differently than lung cancer to bone.</string>
+
+
+    <!-- info cancer symptoms-->
+                <string name="symtom">Symptoms and signs of cancer depend on
+                         the type of cancer, where it is located, and/or where the
+                          cancer cells have spread. For example, breast cancer may
+                           present as a lump in the breast or as nipple discharge
+                           while metastatic breast cancer may present with symptoms
+                           of pain (if spread to bones), extreme fatigue (lungs), or seizures (brain).
+                            A few patients show no
+                         signs or symptoms until the cancer is far advanced</string>
+                     <string name="symtom_1">
+                         The American Cancer Society describes seven warning
+                         signs that a cancer may be present, and which should prompt
+                         a person to seek medical
+                         attention. The word CAUTION can help you remember these.
+
+                     </string>
+
+    <string name="sym_1">* Change in bowel or bladder habits</string>
+    <string name="sym_2">* A sore throat that does not heal</string>
+                     <string name="sym_3">* Unusual bleeding or discharge (for example, nipple secretions or
+                                             a "sore" that will not heal that oozes material)</string>
+    <string name="sym_4">* Thickening or lump in the breast, testicles, or elsewhere</string>
+                     <string name="sym_5">* Indigestion (usually chronic) or difficulty swallowing
+                                                </string>
+                     <string name="sym_6">* Obvious change in the size, color, shape,
+                                                 or thickness of a wart or mole</string>
+    <string name="sym_7">* Nagging cough or hoarseness</string>
+
+                     <string name="symp_other">Other signs or symptoms may also alert you or your doctor to the
+                             possibility of your having some form of cancer.
+                             These include the following:</string>
+    <string name="sym_o_1">* Unexplained loss of weight or loss of appetite</string>
+                       <string name="sym_o_2">* A new type of pain in the bones or other parts of the body that may be steadily worsening,
+                                             or come and go, but is unlike previous pains one has had before</string>
+    <string name="sym_o_3">* Persistent fatigue, nausea, or vomiting</string>
+    <string name="sym_o_4">* Unexplained low-grade fevers with may be either persistent or come and go</string>
+    <string name="sym_o_5">* Recurring infections which will not clear with usual treatment</string>
+                         <string name="symbacki_1">Many cancers will present with some of the above
+                             general symptoms but often have one or more symptoms that are more specific
+                              for the cancer type. For example, lung cancer may present with common symptoms
+                              of pain, but usually the pain is located in the chest. The patient may have unusual
+                               bleeding, but the bleeding usually occurs when the patient coughs.
+                              Lung cancer patients often become short of breath and then become very fatigued.</string>
+
+                         <string name="symbacki_2">Because there are so many cancer types (see next section)
+                              with so many nonspecific and sometimes more specific symptoms, the best way to learn
+                              about signs and symptoms of specific cancer types is to spend a few moments researching
+                               symptoms of a specific body area in question. Conversely, a specific body area can be
+                               searched to discover what signs and symptoms a person should look for in that area that
+                               is suspected of having cancer.
+                             The following examples are two ways to proceed to get information on symptoms:</string>
+                             <string name="symbacki_o_1">* Use a search engine (Google, Bing) to find links to
+                                 cancer by listing the symptom followed by the term "cancer" or if you know the
+                                  type you want information about, (lung, brain, breast) use MedicineNet’s search
+                                  option. For example, listing "blood in urine and cancer" will bring a person to web
+                                   sites that list possible
+                                 organs and body systems where cancer may produce the listed symptoms.</string>
+                                 <string name="symbacki_o_2">* Use a search engine as above and list the suspected
+                                      body area and cancer (for example, bladder and cancer), and the person will
+                                       see sites that list the signs and symptoms of
+                                     cancer in that area (blood in urine being one of several symptoms listed).</string>
+                                     <string name="symbacki_o_3">* Be aware that many web sites are not necessarily reviewed by
+                                         a health care professional and could contain information that is not accurate.
+                                          Your health care professional is ultimately the best resource if you have concerns.</string>
+
+    <!-- info_cancer_diagnosed-->
+
+           <string name="diagnose_1">Some cancers are diagnosed during routine
+                                                        screening examinations. These are usually tests that are routinely done at a certain age.
+                                                         Many cancers are
+                                                         discovered when you present to your
+                                                         health care professional with specific symptoms.</string>
+                                                    <string name="diag_2">A physical exam and medical history, especially
+                                                        the history of symptoms, are the first steps in diagnosing cancer.
+                                                        In many instances, the medical caregiver will order a number of tests,
+                                                         most of which will be determined by the type of cancer and where it is
+                                                          suspected to be located in or on the persons body. In addition, most
+                                                          caregivers will order a complete blood count, electrolyte levels and, in
+                                                          some cases,
+                                                        other blood studies that may give additional information.</string>
+                                                    <string name="diag_3">Imaging studies are commonly used to help
+                                                         physicians detect abnormalities in the body that may be cancer.
+                                                         X-rays, CT and MRI scans, and ultrasound are common tools used to
+                                                          examine the body. Other tests such as endoscopy, which with variations
+                                                          in the equipment used, can allow visualization of tissues in the intestinal
+                                                           tract, throat, and bronchi that may be cancerous. In areas that cannot be
+                                                            well visualized (inside bones or some lymph nodes, for example),
+                                                            radionuclide scanning
+                                                             is often used.
+                                                            The test involves ingestion or IV injection of a weakly radioactive
+                                                            substance that can be
+                                                        concentrated and detected in abnormal tissue.</string>
+
+                                                    <string name="diag_4">The preceding tests can be very good at localizing
+                                                        abnormalities in the body; many clinicians consider that some of
+                                                        the tests provide presumptive evidence for the diagnosis of cancer.
+                                                        However, in virtually all patients, the definitive diagnosis of cancer
+                                                        is based on the examination of a tissue sample taken in a procedure called
+                                                        a biopsy from the tissue that may be cancerous, and then analyzed by a
+                                                        pathologist. Some biopsy samples are relatively simple to procure (for example,
+                                                        skin biopsy or intestinal tissue biopsy done with a device called an
+                                                         endoscope equipped with a biopsy attachment). Other biopsies may require
+                                                          as little as a carefully guided needle, or as much as a surgery (for example,
+                                                          brain tissue or lymph node biopsy). In some instances, the surgery to diagnose
+                                                           the cancer may result in a cure if all of the cancerous
+                                                        tissue is removed at the time of biopsy.</string>
+                                                        <string name="diag_5">The biopsy can provide more than the
+                                                            definitive diagnosis of cancer; it can identify the cancer
+                                                            type (for example, the type of tissue found may indicate that
+                                                            the sample is from a primary [started there] or metastatic type
+                                                            of brain cancer [spread from another primary tumor arising elsewhere
+                                                             in the body]) and thereby help to stage the cancer. The stage, or
+                                                             cancer staging, is a way for clinicians and researchers to estimate how
+                                                            extensive the cancer is in the patients body.</string>
+    <!--info_cancer _Staging -->
+
+                           <string name="stage_1">There are a number of different staging methods
+                                                                                used for cancers and the specific staging criteria varies among cancer
+                                                                                types. According to the NCI, the common elements
+                                                                                considered in most staging systems are as follows:</string>
+                                                                                <string name="stage_2">However, there are two main methods that form
+                                                                                    the basis for the more specific or individual cancer type staging.
+                                                                                    The TMN staging is used for most solid tumors while the Roman numeral
+                                                                                     or stage grouping method is used by some clinicians and
+                                                                                    researchers on almost all cancer types.</string>
+                                                                                    <string name="stage_3">The TNM system is based on the extent of the
+                                                                                         tumor (T), the extent of spread to the lymph nodes (N), and the
+                                                                                          presence of distant metastasis (M). A number is added to each letter
+                                                                                          to indicate the size or extent of the primary tumor and the extent of
+                                                                                          cancer spread
+                                                                                        (higher number means bigger tumor or more spread).</string>
+    <string name="stage_1_1">* Site of the primary tumor</string>
+    <string name="stage_1_2">* Tumor size and number of tumors</string>
+                                                                                        <string name="stage_1_3">* Lymph node involvement
+                                                                                            (spread of cancer into lymph nodes)</string>
+                                                                                           <string name="stage_1_4">* Cell type and tumor grade (how closely the
+                                                                                               cancer cells resemble normal tissue cells)</string>
+    <string name="stage_1_5">* The presence or absence of metastasis</string>
+
+    <string name="stage_2_3">* T1, T2, T3, T4 - Size and/or extent of the primary tumor</string>
+                                                                   <string name="stage_2_4">* Tis - Carcinoma in situ
+                                                                       (CIS; abnormal cells are present but have not spread to neighboring tissue;
+                                                                        although not cancer, CIS may become cancer and is
+                                                                         sometimes called pre-invasive cancer)</string>
+
+
+    <string name="stage_4">The following is how the NCI describes the TNM staging system:</string>
+    <string name="stage_2_1">* TX - Primary tumor cannot be evaluated</string>
+    <string name="stage_2_2">* T0 - No evidence of primary tumor</string>
+
+    <string name="stage_3_1">* NX - Regional lymph nodes cannot be evaluated</string>
+    <string name="stage_3_2">* N0 - No regional lymph node involvement</string>
+                                                                 <string name="stage_3_3">* N1, N2, N3 - Involvement of regional lymph nodes
+                                                                     (number of lymph nodes and/or extent of spread)</string>
+                                                                 <string name="stage_4_1">* MX - Distant metastasis cannot be
+                                                                      evaluated (some clinicians do not ever use this designation)</string>
+    <string name="stage_4_2">* M0 - No distant metastasis</string>
+    <string name="stage_4_3">* M1 - Distant metastasis is present</string>
+                                                                      <string name="stage_5">Consequently, a persons cancer could be listed as
+                                                                           T1N2M0, meaning it is a small tumor (T1),
+                                                                           but has spread to some regional lymph nodes (N2),
+                                                                           and has no distant metastasis (M0).</string>
+                                                                      <string name="stage_6">The Roman numeral or stage grouping
+                                                                          method is described by the NCI as follows:</string>
+
+
+
+</resources>

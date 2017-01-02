@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:background="@drawable/info_cancertype_head"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Type of cancer"
+
+            android:textSize="20dp"
+            />
+        <TextView
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/type"
+            />
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/info_cancertype_subhead"
+            android:text="* Carcinoma"
+            android:textStyle="italic"
+            android:textSize="@dimen/textsubHead"
+            />
+        <TextView
+            android:textSize="@dimen/textstandard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/type_1"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/info_cancertype_subhead"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="* Sarcoma"
+            android:textStyle="italic"
+            android:textSize="@dimen/textsubHead"
+            />
+        <TextView
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/type_2"
+
+            />
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/info_cancertype_subhead"
+            android:textSize="@dimen/textsubHead"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="* Leukemia"
+            android:textStyle="italic"
+
+            />
+        <TextView
+            android:textSize="@dimen/textstandard"
+            android:textColor="@color/balck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/type_3"
+
+            />
+        <TextView
+            android:textSize="@dimen/textsubHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/info_cancertype_subhead"
+            android:text="* Lymphoma and myeloma"
+            />
+        <TextView
+
+            android:textColor="@color/balck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/type_4"
+            android:textSize="@dimen/textstandard"
+
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textsubHead"
+            android:background="@drawable/info_cancertype_subhead"
+            android:text="* Central nervous system cancers"
+            />
+
+        <TextView
+            android:textSize="@dimen/textstandard"
+            android:textColor="@color/balck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+
+            android:text="@string/type_5"
+            />
+        <TextView
+            android:textSize="@dimen/textstandard"
+            android:textColor="@color/balck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+
+            android:text="@string/type_backi"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="infocancer.nyesteventure.com.infocancer"
+    android:installLocation="auto"
+    android:versionCode="3"
+    android:versionName="3.0.0"
+    >
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBari">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/AppTheme.NoActionBari"
+            >
+
+
+
+        </activity>
+        <activity android:name="info.Fragment.UserProfile"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/AppTheme.NoActionBari">
+
+        </activity>
+        <activity android:name=".PreventionClass"
+
+            android:theme="@style/AppTheme.NoActionBarc"
+            />
+        <activity android:name=".UserChoicePage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/AppTheme.NoActionBar12"
+
+            />
+        <activity android:name=".CreateAccount"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/AppTheme.NoActionBari">
+
+        </activity>
+        <activity android:name="info.Fragment.Prevension.About"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/AppTheme.NoActionBari">
+
+        </activity>
+
+        <activity android:name=".ViewListQuetion"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBarc"
+            />
+        <activity android:name=".Reply"
+            android:theme="@style/AppTheme.NoActionBarc"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+
+            />
+        <activity android:name=".ViewQuestion_Doctor"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            />
+        <activity android:name=".My_Questions"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBarc"
+            >
+
+
+        </activity>
+
+        <activity android:name=".MainSlideMenu"
+            android:theme="@style/AppTheme.NoActionBarc">
+        </activity>
+        <activity android:name=".ImageViews_Class"
+            android:theme="@style/AppTheme.NoActionBarc">
+        </activity>
+
+        <activity android:name=".Questions"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBarc"
+            />
+        <activity android:name=".Question_Doctor"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBarc"
+
+            />
+        <activity android:name=".ListDoctorComments"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBarc"
+            />
+        <activity android:name=".Ask_question_User"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppTheme.NoActionBarc"
+            />
+
+    </application>
+
+
+</manifest>

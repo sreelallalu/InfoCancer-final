@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:gravity="center"
+
+            android:layout_width="fill_parent"
+            android:text="How is cancer staging determined?"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/info_cancertype_head"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="5dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_1_1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_1_2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_1_3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_1_4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_1_5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            />
+
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textstandard"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:textStyle="italic"
+            android:background="@drawable/info_cancertype_subhead"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="1- Primary tumor (T)"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textsubHead"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_2_1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textsubHead"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_2_2"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/balck"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textsubHead"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_2_3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/textsubHead"
+            />
+        <TextView
+            android:textColor="@color/balck"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_2_4"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:textStyle="italic"
+            android:background="@drawable/info_cancertype_subhead"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="2 -Regional lymph nodes (N)"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/textsubHead"
+            />
+
+
+        <TextView
+            android:textColor="@color/balck"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_3_1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_3_2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_3_3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="3- Distant metastasis (M)"
+            android:layout_marginLeft="20dp"
+            android:textSize="16.5dp"
+            android:background="@drawable/info_cancertype_subhead"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+        <TextView
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_4_1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+        <TextView
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_4_2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_4_3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_5"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            />
+        <TextView
+            android:textColor="@color/balck"
+
+            android:textSize="@dimen/textstandard"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stage_6"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <TableLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            >
+            <TableRow
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#fca03d"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.43"
+                        android:text="Stage" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="269dp"
+                        android:layout_height="39dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Definition " />
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#9ef2f9"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="stage_0" />
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="39dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Carcinoma in situ" />
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#ffecec"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="stage_1" />
+
+                    <TextView
+                        android:layout_width="218dp"
+                        android:layout_height="75dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.00"
+                        android:text="Higher numbers indicate more extensive disease: Larger tumor size " />
+
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#ffecec"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="stage_2" />
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="52dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:text="and/or spread of the cancer beyond the organ in which it first developed to " />
+
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#ffecec"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.43"
+                        android:text="stage_3" />
+
+                    <TextView
+                        android:layout_width="269dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:text="nearby lymph nodes and/or organs adjacent to the location of the primary tumor" />
+
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#9ef2f9"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="stage_4" />
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="250dp"
+                        android:layout_height="39dp"
+                        android:layout_marginRight="5dp"
+                        android:text="The cancer has spread to another organ(s)." />
+                </LinearLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="red">#f94c87</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#5f8be4</color>
+    <color name="colorPrimaryDark">#ff0008</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightblue">#94a9d4</color>
+    <color name="actionbarblue">#FF94A9D4</color>
+    <color name="primary">#E43F3F</color>
+    <color name="pink">#f942be</color>
+    <color name="blue">#04109b</color>
+    <color name="darkred">#490101</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="view1">#84d8dc</color>
+    <color name="view2">#afabf8</color>
+    <color name="view3">#82d7ab</color>
+    <color name="view4">#8f9dff</color>
+    <color name="balck">#544f4f</color>
+    <color name="brn">#dd63322f</color>
+    <color name="main_color_gray">#ff7d7d7d</color>
+    <color name="main_edit_text">#f5f2f2</color>
+</resources>

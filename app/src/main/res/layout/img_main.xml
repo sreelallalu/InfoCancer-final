@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:src="@drawable/ef"
+
+                android:id="@+id/imgdisplay0e"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                >
+
+                <Button
+                    android:textColor="@color/white"
+                    android:text="back"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:id="@+id/imgback0er"
+                    android:background="@drawable/greenbutton"
+
+                    />
+
+                <Button
+                    android:id="@+id/imgnext0er"
+                    android:background="@drawable/greenbutton"
+                    android:text="next"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                   />
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgcount0er"
+                android:textSize="12dp"
+
+                ></TextView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:background="@drawable/buttonshape"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imghead0er"
+                android:textSize="19dp"
+
+
+                />
+            <TextView
+
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="23dp"
+                android:textSize="18dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgtextstring0er"
+
+
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
